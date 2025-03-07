@@ -11,8 +11,7 @@ nav ul {
 }
 header{
     background-color: #ffc017;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 215px;
@@ -20,6 +19,9 @@ header{
     align-items: center;
     border-bottom: 1px solid black;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
 
 
