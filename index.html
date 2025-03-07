@@ -9474,4 +9474,19 @@
 </section>
     </main>
   </body>
+  <script>
+    document.addEventListener('scroll',()=>{
+        const header= document.querySelector('header');
+        const button= document.getElementsByClassName("btn")[0]
+        if(window.scrollY>0){
+        header.classList.add('scrolled')
+        button.classList.add('scrolled-button')
+        
+    }else{
+        header.classList.remove('scrolled');
+        button.classList.remove('scrolled-button')
+    }
+    })
+   
+  </script>
 </html>
