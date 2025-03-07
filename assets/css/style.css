@@ -73,9 +73,16 @@ section .btn{
 .first-container{
     width: 80%;
     margin: 20px auto;
+    margin-top: 80px;
+    position: relative;
     
 }
 
+.first-container-div{
+    position: absolute;
+    top: -48%;
+    left: 8%;
+}
 .row img {
     border-radius: 50%;
     height: 30px;
